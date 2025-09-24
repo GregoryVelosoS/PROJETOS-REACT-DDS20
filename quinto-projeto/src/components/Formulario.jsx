@@ -96,7 +96,7 @@ const Formulario = () => {
                 message: "O máximo de caracteres é 15",
             },
             pattern: {
-                value: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-Z\d@$!%*?&]{8,}$/,
+                value: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
                 message: "A senha deve conter pelo menos uma letra maiúscula, uma letra minúscula, um número e um caracter especial"
               },
             })}
